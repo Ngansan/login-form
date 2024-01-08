@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    min-height: 100vh;
+    background: rgba(181, 234, 248, 0.855);
+}
+form{
+    padding: 25px;
+    background: white;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+}
+form h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0 30px 0;
+}
+form .form-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+form label{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+form input,
+form select{
+    height: 45px;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    background: white;
+    border-radius: 2px;
+    border: 1px solid #bfbfbf;
+}
+/* form input,
+form select{
+    border-color: red;
+    background: #f9f0f1;   
+}  */
+form #Password i{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    height: 30px;
+    top: 40px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+#Submit{
+    margin-top: 20px;
+}
+#Submit input{
+    color: white;
+    background: green;
+    border: none;
+    height: auto;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 13px 0;
+    text-align: center;
+    transition: 0.2s ease;
+}
+
+#Submit input:hover{
+    background: #179b81;
+}
+.form-group.error small{
+    color: red;
+}
+.form-group input:focus{
+    background: rgb(148, 236, 244);
+    
+}
+.form-group.error input{
+    border-bottom: 2px solid red;
+}
+.text p{
+    text-align: center;
+   
+}
+.text p a{
+    text-decoration: none;
+    color: blue;
+   
+}
+.text p a:hover{
+    text-decoration: underline;
+}
+#inp_check{
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}

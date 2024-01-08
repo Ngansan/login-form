@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <!-- fontawesme CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <title>Form</title>
+</head>
+<body>
+    <form action="thanks.html">
+        <h2>Login</h2>
+        <div class="form-group" id="fullName">
+            <label for="fullname">Full Name</label>
+            <input type="text" name="" id="fullname" placeholder="Enter your full name">
+            <small></small>
+        </div>
+        <div class="form-group" id="Email">
+            <label for="email">Email</label>
+            <input type="text" name="" id="email" placeholder="Enter your email address">
+            <small></small>
+        </div>
+        <div class="form-group" id="Password">
+            <label for="password">Password</label>
+            <input type="password" name="" id="password" placeholder="Please enter your password">
+            <button id="eye-pass"></button>
+            
+            <!-- <input type="checkbox" name="" id="inp_check" onclick="showHidePass()"> Show password -->
+            <small></small>
+        </div>
+        <div class="form-group" id="confi-pass">
+            <label for="confirm_pass">Confirm password</label>
+            <input type="text" name="" id="confirm_pass" placeholder="Confirm your password">
+            <button id="eye-confi-pass"></button>
+            <!-- <input type="checkbox" name="" class="inp_check"> Show password -->
+            <small></small>
+        </div>
+        <!-- <div class="form-group" id="Gender">
+            <label for="gender">Gender</label>
+            <select name="" id="gender">
+                <option value="" selected disabled>Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div> -->
+        <div class="form-group" id="Submit">
+            <input type="submit" value="Login">
+        </div>
+        <div class="text">
+            <p>Don't have an account? <a href="#">Signup</a></p>
+        </div>
+    </form>
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://kit.fontawesome.com/73ff7aaf76.js" crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
+</html>
+
